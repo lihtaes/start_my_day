@@ -1,5 +1,5 @@
 ##Overview
-- User Auth - Devise gem
+- DONE User Auth - Devise gem 
 - News API
 - Weather API - yahoo-weather gem
 - Stock data API - stock_quote gem
