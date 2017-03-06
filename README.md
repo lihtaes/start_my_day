@@ -4,7 +4,7 @@
 - Weather API - yahoo-weather gem
 - Stock data API - stock_quote gem
 - Schedule and Calendar
-- Notifcation setup - Gritter gem
+- DONE Notifcation setup - Gritter gem
 - Layouts with Bootstrap 4
   - DONE landing
   - home
