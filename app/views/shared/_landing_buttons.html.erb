@@ -1,0 +1,8 @@
+<p class="lead" id="home-button">
+  <% if user_signed_in? %>
+    <%= link_to 'enter', home_path, class: "btn btn-outline-secondary" %>
+  <% else %>
+    <%= link_to 'login', new_user_session_path, class: "btn btn-outline-secondary" %>
+    <%= link_to 'sign up', new_user_registration_path, class: "btn btn-outline-secondary" %>
+  <% end %>
+</p>

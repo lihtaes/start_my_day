@@ -7,13 +7,19 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
-      <p class="notice"><%= notice %></p>
-      <p class="alert"><%= alert %></p>
   </head>
 
   <body>
-  
-    <%= yield %>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container <%=action_name%>-container">
+          
+          <%= render 'shared/background' %>
 
+          <%= yield %>
+            
+        </div>  
+      </div>
+    </div>  
   </body>
 </html>

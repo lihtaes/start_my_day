@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'news', to: 'pages#news'
   get  'market', to: 'pages#market'
   get  'schedule', to: 'pages#schedule'
+  get 'home', to: 'pages#home'
   
-  root to: "pages#home"
+  root to: "pages#landing"
 end
