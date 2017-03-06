@@ -5,11 +5,17 @@
 - Stock data API - stock_quote gem
 - Schedule and Calendar
 - Notifcation setup - Gritter gem
-- Layout with Bootstrap 4
+- Layouts with Bootstrap 4
+  - DONE landing
+  - home
+  - weather
+  - news
+  - market
+  - schedule/calendar
 
 
 ##Defaults to sign-in/register, no access without entry
-- Has a brief intro to site and login/sign-up lead
+- DONE Has a brief intro to site and login/sign-up lead
 
 ##Layout
 ### Home page
