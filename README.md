@@ -18,3 +18,7 @@
   - Todays over-all forecast for User default location
   - Over all market trends 
   - Something News-related (to be determined)
+
+
+##General TODOS
+  - implement bootstrap styles for all devise forms

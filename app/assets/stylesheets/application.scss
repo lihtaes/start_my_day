@@ -224,7 +224,7 @@ Custom Styles
 
 
 
-/*.login > .card {
+.login > .card {
   width:22rem;
   margin: 0 auto;
   float: none;
@@ -237,7 +237,14 @@ Custom Styles
   margin:0 auto;
   float:none;
   margin-bottom: 10px;
-}*/
+}
+
+.registration > .card {
+  width:30rem;
+  margin:0 auto;
+  float:none;
+  margin-bottom: 10px;
+}
 
 .align-left {
   text-align: left;
